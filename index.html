@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Hanger game</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <script src="index.js" defer></script>
 </head>
 <body>
 
@@ -21,15 +21,26 @@
 
     </div>
     <div class="letter">
-        <div>w</div>
-        <div>o</div>
-        <div>r</div>
-        <div>l</div>
-        <div>d</div>
+        <div>
+            <span class="word">w</span>
+        </div>
+        <div>
+            <span class="word">o</span>
+        </div>
+        <div>
+            <span class="word">r</span>
+        </div>
+        <div>
+            <span class="word">l</span>
+        </div>
+        <div>
+            <span class="word">d</span>
+        </div>
+
     </div>
     <div class="d-flex content-center">
-        <input type="text" placeholder="guess the letter">
-        <button>check your guess</button>
+        <input id="input" type="text" placeholder="guess the letter">
+        <button id="playerBtn">check your guess</button>
     </div>
 
 </div>
