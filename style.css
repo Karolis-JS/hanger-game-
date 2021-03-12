@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    width: 60%;
+    height: 500px;
+    background-color: #d4d4d4;
+}
+.letter{
+    display: flex;
+    justify-content: center;
+}
+.letter div{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    margin: 20px;
+    background-color: grey;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
